@@ -2,7 +2,7 @@
 	--splash: var(--black);
 	--black: #000;
 	--green: #076442;
-	--red:  #8B0000;
+	--red: #8b0000;
 }
 
 * {
@@ -12,6 +12,7 @@
 }
 
 body {
+	overflow: hidden;
 	width: 100vw;
 	height: 100vh;
 	display: grid;
@@ -56,6 +57,19 @@ h3 {
 	height: 36px;
 	border-top-right-radius: 10px;
 	border-bottom-left-radius: 10px;
+	border: 4px outset gray;
+	font-size: 1rem;
+	font-weight: 700;
+	color: hsl(0, 0%, 20%)
+}
+
+#check-btn:hover {
+	background-color: hsl(0, 0%, 85%);
+}
+
+#check-btn:active {
+	border: 4px inset gray;
+	background-color: hsl(0, 0%, 90%);
 }
 
 #result {
