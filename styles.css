@@ -29,6 +29,8 @@ main {
 	padding: 20px;
 	box-shadow: 10px 10px 10px black;
 	width: 350px;
+	height: 235px;
+	scale: 1.9;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: 2fr 1fr 0px 2fr;
