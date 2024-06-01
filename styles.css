@@ -30,13 +30,15 @@ main {
 	box-shadow: 10px 10px 10px black;
 	width: 350px;
 	height: 235px;
-	scale: 1.9;
+	scale: 1.8;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: 2fr 1fr 0px 2fr;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	justify-self: center;
+	align-self: center;
 }
 
 h3 {
@@ -88,7 +90,9 @@ h3 {
 	padding: 3%;
 	overflow: hidden;
 	text-wrap: wrap;
-	padding-top: 15px;
+	padding: 10px;
+	font-size: 1.5rem;
+	font-weight: bold;
 }
 
 h1 {
@@ -96,7 +100,7 @@ h1 {
 	text-align: center;
 	align-self: center;
 	padding: 3rem;
-	font-size: 3rem;
+	font-size: 8rem;
 }
 
 hr {
